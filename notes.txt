@@ -1,0 +1,129 @@
+1 - first web page->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">                                                      Unicode Transformation Format – 8-bit
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<h1>My First Heading</h1>
+<p>My first paragraph.</p>
+</body>
+</html>
+
+2 -> HTML Elements - 
+The HTML element is everything from the start tag to the end tag:
+
+<tagname>Content goes here...</tagname>
+Examples of some HTML elements:
+
+<h1>My First Heading</h1>
+<p>My first paragraph.</p>
+
+3- Empty HTML Elements - 
+HTML elements with no content are called empty elements.
+
+The <br> tag defines a line break, and is an empty element without a closing tag
+<p>This is a <br> paragraph with a line break.</p>
+
+4 - HTML Headings - 
+<h1>Heading 1</h1>
+<h2>Heading 2</h2>
+<h3>Heading 3</h3>
+<h4>Heading 4</h4>
+<h5>Heading 5</h5>
+<h6>Heading 6</h6>
+
+5 - HTML Paragraphs
+The HTML <p> element defines a paragraph.
+
+6 -  HTML Attributes - 
+All HTML elements can have attributes
+Attributes provide additional information about elements
+Attributes are always specified in the start tag
+Attributes usually come in name/value pairs like: name="value"
+
+The href Attribute
+The <a> tag defines a hyperlink. The href attribute specifies the URL of the page the link goes to:
+
+Example
+<a href="https://www.google.com">Google</a>
+
+The src Attribute
+The <img> tag is used to embed an image in an HTML page. The src attribute specifies the path to the image to be displayed:
+
+Example
+<img src="img_girl.jpg">
+
+The width and height Attributes
+Example
+<img src="img_girl.jpg" width="500" height="600">
+
+The alt Attribute
+Example
+<img src="img_girl.jpg" alt="Girl with a jacket">
+
+7 - Ordered and Unordered lists - 
+
+<h3>Grocery list</h3>
+    <ol>
+        <li>Milk</li>
+        <li>Bread</li>
+        <li>Vegetables</li>
+        <li>Eggs</li>
+    </ol>
+    <hr>
+    <h3>Programming languages</h3>
+    <ul>
+        <li>C++</li>
+        <li>Java</li>
+        <li>Python</li>
+        <li>C#</li>
+    </ul>
+
+8 - Definition list - 
+
+<h3>Biological Terms</h3>
+    <dl>
+        <dt>Anatomy</dt>
+        <dd>the study of the inside of the body and outside the body.</dd>
+        <dt>Genetics</dt>
+        <dd>The study of heredity and the variation of inherited characteristics.</dd>
+    </dl>
+
+9 - Emmet shortcuts -> https://www.youtube.com/watch?v=45eWEO0gRHI
+
+- generate entire basic html page->
+!followed by enter
+
+- chields-> nav>ul>li ->   
+<nav>
+    <ul>
+        <li></li>
+    </ul>
+</nav>
+
+- siblings -> div+p+bq ->
+
+<div></div>
+<p></p>
+<blockquote></blockquote>
+
+- multiplication-> ul>li*3
+
+<ul>
+    <li></li>
+    <li></li>
+    <li></li>
+</ul>
+
+- multicursor-> select a text press alt key and now using mouse select other location where you want to have cursor
+- to apply a tag over multiple occurence -> got to view -> select Command Plallet-> Select Emmet:wrap with abbrivation ->
+and enter the tag that you want to wrap around a text.
+Example -> Wrapping multiple list item in <li> tag->
+- select all the text occurence-> select first one, press alt and use mouse to put the cursor on all text occurnece, now go to command pallet and enter tag name.
+
+
